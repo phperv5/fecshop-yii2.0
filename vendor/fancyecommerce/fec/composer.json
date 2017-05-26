@@ -1,0 +1,38 @@
+{
+  "name": "fancyecommerce/fec",
+  "description": "fancy ecommerce",
+  "keywords": [
+    "yii2",
+    "fancy",
+	"ecommerce",
+	"fec"
+  ],
+  "homepage": "https://github.com/fancyecommerce/yii2-fec",
+  "type": "yii2-extension",
+  "license": "MIT",
+  "support": {
+    "source": "https://github.com/fancyecommerce/yii2-fec"
+  },
+  "authors": [
+    {
+      "name": "terry water",
+      "email": "235826901@qq.com"
+    }
+  ],
+  "minimum-stability": "stable",
+  "require": {
+    "php": ">=5.4.0",
+    "yiisoft/yii2": ">=2.0.6",
+   	"imagine/imagine": "0.5.*",
+	"yiisoft/yii2-redis": "~2.0.0",
+	"phpoffice/phpexcel": "1.8.*"
+  },
+  "autoload": {
+    "psr-4": {
+      "fec\\": ""
+    }
+  },
+  "config": {
+    "process-timeout": 1800
+  }
+}

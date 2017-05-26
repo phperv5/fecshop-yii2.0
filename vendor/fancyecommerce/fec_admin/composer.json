@@ -1,0 +1,38 @@
+{
+  "name": "fancyecommerce/fec_admin",
+  "description": "fancy ecommerce",
+  "keywords": [
+    "yii2",
+    "fec",
+	"ecommerce",
+	"fec_admin",
+	"dwz",
+	"jui"
+  ],
+  "homepage": "https://github.com/fancyecommerce/yii2_fec_admin",
+  "type": "yii2-extension",
+  "license": "BSD-3-Clause",
+  "support": {
+    "source": "https://github.com/fancyecommerce/yii2_fec_admin"
+  },
+  "authors": [
+    {
+      "name": "terry water",
+      "email": "235826901@qq.com"
+    }
+  ],
+  "minimum-stability": "stable",
+  "require": {
+    "php": ">=5.4.0",
+    "yiisoft/yii2": ">=2.0.6",
+    "fancyecommerce/fec":">=1.1.3.2"
+  },
+  "autoload": {
+    "psr-4": {
+      "fecadmin\\": ""
+    }
+  },
+  "config": {
+    "process-timeout": 1800
+  }
+}
